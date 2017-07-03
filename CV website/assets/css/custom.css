@@ -1,0 +1,264 @@
+.panel1-container{
+		position: relative;
+		width:1280px;
+		height: 1024px;
+		background: url(  ../img/panel1background.jpg);
+		background-size:     cover;   
+		background-position: center center;
+		background-repeat: no-repeat;
+		opacity: 0.8;
+		margin: 0 auto;
+		border-bottom: 10px white solid;
+	}
+	.panel2-container{
+		position: relative;
+		width:1280px;
+		height: 1024px;
+		background: url( ../img/panel2background.jpg);
+		background-size:     cover;   
+		background-position: center center;
+		background-repeat: no-repeat;
+		margin: 0 auto;
+		border-bottom: 10px white solid;	
+
+	}
+	.panel1-personal-container{
+		width: 25%;
+		height: 1024px;
+		background-color:darkblue;
+		padding: 50px 0px;
+		float: left;
+		border-bottom: 10px white solid;
+
+
+	}
+	.panel1-slide-container{
+		width: 75%;
+		height: 1024px;
+		float: left;
+		border-left: 10px white solid;
+	}
+	.panel1-slide{
+		width: 80%;
+		padding: 20px;
+		text-align: center;
+		
+	}
+
+	.photo{
+		width: 60%;
+		height: auto;
+		border: 10px white solid;
+	}
+	.teamphoto{
+		width:90%;
+		border: 10px white solid;
+	}
+	h1{
+		font-size: 40px;
+		color: white;
+		text-align: center;
+		margin: 10px 0;
+		padding:40px 0;
+
+		
+	}
+	h3{
+		color: white;
+		text-align: center;
+	}
+	h4,p{
+		color: white;
+		padding-left: 20px;
+	}
+	p{
+		padding-bottom: 10px;
+	}
+	.home-icon,.email-icon,.phone-icon{
+		color: white;
+		padding-left: 20px;
+	}
+	span{
+		font-size: 80px;
+		color: darkblue;
+	}
+	.mySlides {
+		display:none;
+		border: 10px white solid;
+	}
+	.panel-title{
+		font-size: 70px;
+		text-align: center;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		color: white;
+	}
+	.product-video{
+		height: 100%;
+		width: 75%;
+		border: 10px white solid;
+		border-bottom: 5px white solid;
+		background-color:white;
+		margin: 0 auto;
+	}
+	.product-video:hover{
+		border: 10px blue solid;
+		border-bottom: 5px blue solid;
+		opacity: 0.6;
+		background-color:blue;
+
+	}
+	/* The Modal (background) */
+	.modal {
+		display: none; /* Hidden by default */
+		position: fixed; /* Stay in place */
+		z-index: 1; /* Sit on top */
+		padding-bottom: 20px; /* Location of the box */
+		left: 0;
+		top: 0;
+		width: 100%; /* Full width */
+		height: 100%; /* Full height */
+		overflow: auto; /* Enable scroll if needed */
+		background-color: rgb(0,0,0); /* Fallback color */
+		background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+		opacity: 1;
+	}
+
+	/* Modal Content */
+	.modal-content {
+		background-color: #fefefe;
+		margin: auto;
+		padding: 20px;
+		border: 1px solid #888;
+		width: 80%;
+	}
+
+	/* The Close Button */
+	.close {
+		color: #aaaaaa;
+		background-color: rgb(255,0,0);
+		border-radius: 5px ;
+		float: right;
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+	.close:hover,
+	.close:focus {
+		color: #000;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.panel3-container{
+		position: relative;
+		width:1280px;
+		height: 1024px;
+		background: url( ../img/panel3background.jpg);
+		background-size:     cover;   
+		background-position: center center;
+		background-repeat: no-repeat;
+		opacity: 0.8;
+		margin: 0 auto;
+		border-bottom: 10px white solid;
+		padding: 0 3%;
+	}
+	.panel3-aboutme{
+		width: 45%;
+		height: 70%;
+		padding: 10px;
+		margin: 5px;
+		background-color: darkslateblue
+	}
+	.panel3-font{
+		font-size:18px;
+		padding: 5px;
+	}
+	.panel3-aboutteam{
+		width: 45%;
+		height: 70%;
+		padding: 10px;
+		margin: 5px;
+		margin-left: 8%;
+		background-color:blueviolet;
+	}
+	.panel3-meter{
+		width: 60%;
+		height:20px;
+
+	}
+	
+	#borderimg1 { 
+		border: 15px solid transparent;
+		border-radius: 10px;
+		padding: 15px;
+		-webkit-border-image: url( ../img/border.png) 30 round; /* Safari 3.1-5 */
+		-o-border-image: url( ../img/border.png) 30 round; /* Opera 11-12.1 */
+		border-image: url( ../img/border.png) 30 round;
+	}
+
+	#borderimg2 { 
+		border: 15px solid transparent;
+		padding: 15px;
+		-webkit-border-image: url( ../../img/border.png) 30 stretch; /* Safari 3.1-5 */
+		-o-border-image: url( ../img/border.png) 30 stretch; /* Opera 11-12.1 */
+		border-image: url( ../img/border.png) 30 stretch;
+	}
+	.panel4-container{
+		position: relative;
+		width:1280px;
+		height: 1024px;
+		background: url( ../img/panel4background.jpg);
+		background-size:     cover;   
+		background-position: center center;
+		background-repeat: no-repeat;
+		opacity: 0.8;
+		margin: 0 auto;
+		border-bottom: 10px white solid;
+	}
+	#textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+	border-bottom:  4px solid  #00f;
+	opacity: 0.8;
+    background-color:midnightblue;
+	color: white;
+    font-size: 16px;
+    resize: none;
+	margin-bottom: 40px;
+	}
+	input[type=button], input[type=submit], input[type=reset] {
+	width:50%;
+    background-color:dodgerblue;
+	border-radius: 15px;
+	border: 3px dodgerblue solid;
+	color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 24px;
+	}
+	input[type=button]:hover, input[type=submit]:hover, input[type=reset] :hover{
+    background-color:mediumblue;
+	border-radius: 15px;
+	border: 3px white solid;
+	}
+	input[type=text]{
+	background-color:midnightblue; 
+	width:50%;
+	height:40px;
+	margin-bottom: 40px;
+	border-bottom:  4px solid  #00f;
+	color: white;
+	opacity: 0.8;
+	}
+	.tbl1 {
+    background:#FFFFFF url( ../img/person.png) no-repeat 4px 2px;
+    padding:0 0 0 40px;
+	}
+	.tbl2 {
+    background:#FFFFFF url( ../img/email.png) no-repeat 4px 2px;
+    padding:0 0 0 40px;
+	}
+	

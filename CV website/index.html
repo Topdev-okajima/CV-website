@@ -1,0 +1,477 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NSEI Team</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="icon" href="assets/img/favicon.png" type="image/ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"  type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+
+</head>
+
+<body>
+<div class="panel1-container">
+	<div class="panel1-personal-container">
+		  <img src= "assets/img/photo.jpg" class="img-circle photo center-block" alt="Photo" >
+		  <h1>Maximo Martin</h1>
+		  <h4>Address:</h4>
+		  <p style="color: darkorange;"><i class="fa fa-home home-icon" >:</i>Plaza Cánovas del Castillo, 4, 28014 Madrid, Spain</p>
+		  <h4>Email:</h4>
+		  <p style="color: darkorange"><i class="fa fa-envelope email-icon" >:</i>dreamstar725@gmail.com</p>
+		  <h4>Phone:</h4>
+		  <p style="color: darkorange"><i class="fa fa-phone-square phone-icon" >:</i>(000)000-0000</p>
+		  <img src="assets/img/slide1.jpg" class="teamphoto center-block" alt="Teamphoto">
+		
+  	  	<div style="text-align: center;padding-top: 30px;">
+			  <i class="fa fa-google-plus-square" style="font-size:36px;color:white"></i>
+			  <i class="fa fa-facebook-square" style="font-size:36px;color:white"></i>
+			  <i class="fa fa-twitter-square" style="font-size:36px;color:white"></i>
+   	     	  <i class="fa fa-linkedin-square" style="font-size:36px;color:white"></i>
+  	  	</div>
+	   
+	</div>
+	<div class="panel1-slide-container">
+		<div class="panel1-title">
+			<img src="assets/img/logo.png">
+			<h1 class="panel-title">Building <span>Mobile</span> Apps and <span>Web </span>Sites </h1>
+		</div>
+		<div class="panel1-slide w3-content w3-section">
+  		  <img class="mySlides" src="assets/img/slide1.jpg" style="width:100%">
+		  <img class="mySlides" src="assets/img/slide2.jpg" style="width:100%">
+		  <img class="mySlides" src="assets/img/slide3.jpg" style="width:100%">
+		  <img class="mySlides" src="assets/img/slide4.jpg" style="width:100%">
+		  <img class="mySlides" src="assets/img/slide5.jpg" style="width:100%">
+		  <img class="mySlides" src="assets/img/slide6.jpg" style="width:100%">
+		  <img class="mySlides" src="assets/img/slide7.jpg" style="width:100%">
+		</div>
+			<img src="assets/img/logo.png" style="float: right;padding-right: 20px;">
+
+<script>
+	var myIndex = 0;
+	carousel();
+	function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+	}
+</script>
+	
+	</div>
+</div>
+
+<div class="panel2-container">
+		<h1 class="panel-title">Our Production</h1>
+	<div class="row">
+		<div class="col-sm-4" >
+			<h3>Product1</h3>
+			<div class="product-video">
+				<video  id="myBtn1" width="100%" height="100%" autoplay loop>
+  				<source src="assets/video/10.mp4" type="video/mp4">
+  				<source src="assets/video/10.mp4" type="video/ogg">
+  				Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+		<div class="col-sm-4" >
+			<h3>Product2</h3>
+
+			<div class="product-video">
+				<video  id="myBtn2" width="100%" height="100%" autoplay loop>
+  				<source src="assets/video/2.mp4" type="video/mp4">
+  				<source src="assets/video/2.mp4" type="video/ogg">
+  				Your browser does not support the video tag.
+				</video>
+
+			</div>
+		</div>
+		<div class="col-sm-4" >
+			<h3>Product3</h3>
+			<div class="product-video">
+				<video  id="myBtn3" width="100%" height="100%" autoplay loop>
+  				<source src="assets/video/3.mp4" type="video/mp4">
+  				<source src="assets/video/3.mp4" type="video/ogg">
+  				Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+    </div>
+	<div class="row" style="padding-top: 20px;">
+		<div class="col-sm-4" >
+			<h3>Product4</h3>
+			<div class="product-video">
+				<video  id="myBtn4" width="100%" height="100%" autoplay loop>
+  				<source src="assets/video/4.mp4" type="video/mp4">
+  				<source src="assets/video/4.mp4" type="video/ogg">
+  				Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+		<div class="col-sm-4" >
+			<h3>Product5</h3>
+			<div class="product-video">
+				<video  id="myBtn5" width="100%" height="100%" autoplay loop>
+  				<source src="assets/video5.mp4" type="video/mp4">
+  				<source src="assets/video/5.mp4" type="video/ogg">
+  				Your browser does not support the video tag.
+				</video>
+
+			</div>
+		</div>
+		<div class="col-sm-4" >
+			<h3>Product6</h3>
+			<div class="product-video">
+				<video  id="myBtn6" width="100%" height="100%" autoplay loop>
+  				<source src="assets/video/6.mp4" type="video/mp4">
+  				<source src="assets/video/6.mp4" type="video/ogg">
+  				Your browser does not support the video tag.
+				</video>
+
+			</div>
+		</div>
+    </div>
+    	<div class="row" style="padding-top: 20px;">
+		<div class="col-sm-4" >
+			<h3>Product7</h3>
+			<div class="product-video">
+				<video  id="myBtn7" width="100%" height="100%" autoplay loop>
+  				<source src="assets/video/7.mp4" type="video/mp4">
+  				<source src="assets/video/7.mp4" type="video/ogg">
+  				Your browser does not support the video tag.
+				</video>
+
+			</div>
+		</div>
+		<div class="col-sm-4" >
+			<h3>Product8</h3>
+			<div class="product-video">
+				<video id="myBtn8" width="100%" height="100%" autoplay loop>
+  				<source src="assets/video/8.mp4" type="video/mp4">
+  				<source src="assets/video/8.mp4" type="video/ogg">
+  				Your browser does not support the video tag.
+				</video>
+				
+			</div>
+		</div>
+		<div class="col-sm-4" >
+			<h3>Product9</h3>
+			<div class="product-video">
+				<video id="myBtn9" width="100%" height="100%" autoplay loop>
+  				<source src="assets/video/9.mp4" type="video/mp4">
+  				<source src="assets/video/9.mp4" type="video/ogg">
+  				Your browser does not support the video tag.
+				</video>
+				
+			</div>
+		</div>
+    </div>
+
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+		<span class="close">&times;</span>
+		<p>This is Video Modal Box.</p>
+		<video width="100%" height="100%" controls>
+  		<source src="assets/video/10.mp4" type="video/mp4">
+  		<source src="assets/video/10.mp4" type="video/ogg">
+  		Your browser does not support the video tag.
+		</video>
+  </div>
+</div>
+<div id="myModal2" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+		<span class="close">&times;</span>
+		<p>This is Video Modal Box.</p>
+		<video width="100%" height="100%" controls>
+  		<source src="assets/video/2.mp4" type="video/mp4">
+  		<source src="assets/video/2.mp4" type="video/ogg">
+  		Your browser does not support the video tag.
+		</video>
+  </div>
+</div>            
+<div id="myModal3" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+		<span class="close">&times;</span>
+		<p>This is Video Modal Box.</p>
+		<video width="100%" height="100%" controls>
+  		<source src="assets/video/3.mp4" type="video/mp4">
+  		<source src="assets/video/3.mp4" type="video/ogg">
+  		Your browser does not support the video tag.
+		</video>
+  </div>
+</div>
+<div id="myModal4" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+		<span class="close">&times;</span>
+		<p>This is Video Modal Box.</p>
+		<video width="100%" height="100%" controls>
+  		<source src="assets/video/4.mp4" type="video/mp4">
+  		<source src="assets/video/4.mp4" type="video/ogg">
+  		Your browser does not support the video tag.
+		</video>
+  </div>
+</div>
+<div id="myModal5" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+		<span class="close">&times;</span>
+		<p>This is Video Modal Box.</p>
+		<video width="100%" height="100%" controls>
+  		<source src="assets/video/5.mp4" type="video/mp4">
+  		<source src="assets/video/5.mp4" type="video/ogg">
+  		Your browser does not support the video tag.
+		</video>
+  </div>
+</div>
+<div id="myModal6" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+		<span class="close">&times;</span>
+		<p>This is Video Modal Box.</p>
+		<video width="100%" height="100%" controls>
+  		<source src="assets/video/6.mp4" type="video/mp4">
+  		<source src="assets/video/6.mp4" type="video/ogg">
+  		Your browser does not support the video tag.
+		</video>
+  </div>
+</div>
+<div id="myModal7" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+		<span class="close">&times;</span>
+		<p>This is Video Modal Box.</p>
+		<video width="100%" height="100%" controls>
+  		<source src="assets/video/7.mp4" type="video/mp4">
+  		<source src="assets/video/7.mp4" type="video/ogg">
+  		Your browser does not support the video tag.
+		</video>
+  </div>
+</div>
+<div id="myModal8" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+		<span class="close">&times;</span>
+		<p>This is Video Modal Box.</p>
+		<video width="100%" height="100%" controls>
+  		<source src="assets/video/8.mp4" type="video/mp4">
+  		<source src="assets/video/8.mp4" type="video/ogg">
+  		Your browser does not support the video tag.
+		</video>
+  </div>
+</div>
+<div id="myModal9" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+		<span class="close">&times;</span>
+		<p>This is Video Modal Box.</p>
+		<video width="100%" height="100%" controls>
+  		<source src="assets/video/9.mp4" type="video/mp4">
+  		<source src="assets/video/9.mp4" type="video/ogg">
+  		Your browser does not support the video tag.
+		</video>
+  </div>
+</div>
+<script>
+// Get the modal
+var modal1 = document.getElementById('myModal1');
+var modal2 = document.getElementById('myModal2');
+var modal3 = document.getElementById('myModal3');
+var modal4 = document.getElementById('myModal4');
+var modal5 = document.getElementById('myModal5');
+var modal6 = document.getElementById('myModal6');
+var modal7 = document.getElementById('myModal7');
+var modal8 = document.getElementById('myModal8');
+var modal9 = document.getElementById('myModal9');
+
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("myBtn1");
+var btn2 = document.getElementById("myBtn2");
+var btn3 = document.getElementById("myBtn3");
+var btn4 = document.getElementById("myBtn4");
+var btn5 = document.getElementById("myBtn5");
+var btn6 = document.getElementById("myBtn6");
+var btn7 = document.getElementById("myBtn7");
+var btn8 = document.getElementById("myBtn8");
+var btn9 = document.getElementById("myBtn9");
+	
+
+// Get the <span> element that closes the modal
+var span1 = document.getElementById("myModal1");
+var span2 = document.getElementById("myModal2");
+var span3 = document.getElementById("myModal3");
+var span4 = document.getElementById("myModal4");
+var span5 = document.getElementById("myModal5");
+var span6 = document.getElementById("myModal6");
+var span7 = document.getElementById("myModal7");
+var span8 = document.getElementById("myModal8");
+var span9 = document.getElementById("myModal9");
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function() {
+    modal1.style.display = "block";
+}
+btn2.onclick = function() {
+    modal2.style.display = "block";
+}
+btn3.onclick = function() {
+    modal3.style.display = "block";
+}
+btn4.onclick = function() {
+    modal4.style.display = "block";
+}
+btn5.onclick = function() {
+    modal5.style.display = "block";
+}
+btn6.onclick = function() {
+    modal6.style.display = "block";
+}
+btn7.onclick = function() {
+    modal7.style.display = "block";
+}
+btn8.onclick = function() {
+    modal8.style.display = "block";
+}
+btn9.onclick = function() {
+    modal9.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+    modal1.style.display = "none";
+}
+span2.onclick = function() {
+    modal2.style.display = "none";
+}
+span3.onclick = function() {
+    modal3.style.display = "none";
+}
+span4.onclick = function() {
+    modal4.style.display = "none";
+}
+span5.onclick = function() {
+    modal5.style.display = "none";
+}
+span6.onclick = function() {
+    modal6.style.display = "none";
+}
+span7.onclick = function() {
+    modal7.style.display = "none";
+}
+span8.onclick = function() {
+    modal8.style.display = "none";
+}
+span9.onclick = function() {
+    modal9.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+//window.onclick = function(event) {
+//    if (event.target == modal1) {
+//     modal1.style.display = "none";
+//    }else if(event.target == modal2)
+//     modal2.style.display = "none";
+//	else if(event.target == modal3)
+//     modal3.style.display = "none";
+//	else if(event.target == modal4)
+//     modal4.style.display = "none";
+//	else if(event.target == modal5)
+//     modal5.style.display = "none";
+//	else if(event.target == modal6)
+//     modal6.style.display = "none";
+//	else if(event.target == modal7)
+//     modal7.style.display = "none";
+//	else if(event.target == modal8)
+//     modal8.style.display = "none";
+//	else if(event.target == modal9)
+//     modal9.style.display = "none";
+//
+//}
+
+</script> 
+</div>
+
+<div class="panel3-container">
+<!--	<img src="img/coollogo_com-263761048.png" style="padding:0px 20px; width:20%;">-->
+	<h1 class="panel-title">About Me & <img src="assets/img/teamimg.png" width="30%"> & My  Team</h1>
+	<div class="row">
+	  <div id="borderimg1" class="col-sm-6 panel3-aboutme">
+	  	
+	  	<p class="panel3-font"><span style="color:darkblue;font-size: 20px;">Education:</span> Mastered Senior Software Engineer</p>
+	  	<p class="panel3-font"><span style="color:darkblue;font-size: 20px;">Empolyment History:</span> I have worked in Senior Software Development Company for 10 years.</p>
+	  	<p class="panel3-font"><span style="color:darkblue;font-size: 20px;">Skills & Abilities</span></p>
+	  	<p class="panel3-font">iOS Development: Swift & Objective-C </p>
+	  	<img src="assets/img/swifticon.jpg" style="float: left; width:20px;border-radius: 5px;margin-right: 15px;">
+	  	<meter class="panel3-meter" value="1">100%</meter>
+	  	<p class="panel3-font">Android & Java</p>
+	  	<img src="assets/img/androidicon.png" style="float: left; width:20px;border-radius: 5px;margin-right: 15px;">
+	  	<meter class="panel3-meter" value="0.98">98%</meter>
+	  	<p class="panel3-font">Hybrid App:Xamarin,Ionic,React Native</p>
+	  	<img src="assets/img/hybridicon.png" style="float: left; width:20px;border-radius: 5px;margin-right: 15px;">
+	  	<meter class="panel3-meter" value="0.93">93%</meter>
+	  	<p class="panel3-font">Web Development:PHP,JavaScript,CSS,HTML</p>
+	  	<img src="assets/img/webicon.png" style="float: left; width:20px;border-radius: 5px;margin-right: 15px;">
+	  	<meter class="panel3-meter" value="0.95">95%</meter>
+	  	<p class="panel3-font">Desktop App</p>
+	  	<img src="assets/img/desktopicon.png" style="float: left; width:20px;border-radius: 5px;margin-right: 15px;">
+	  	<meter class="panel3-meter" value="0.90">90%</meter>
+	  	<img src="assets/img/logo.png" style="float: right;width: 35%;">
+
+	  </div>
+	  <div id="borderimg2" class="col-sm-6 panel3-aboutteam">
+	  	<p class="panel3-font"><span style="color:darkblue;font-size: 20px;">Foundation Date:</span> 2015.7.12 </p>
+	  	<p class="panel3-font"><span style="color:darkblue;font-size: 20px;">Member Introduction:</span>Team Member 7</p>
+	  	<p class="panel3-font">iOS developer : 1  people</p>
+	  	<p class="panel3-font">Android developer : 1  people</p>
+	  	<p class="panel3-font">Hybroid App developer : 1  people</p>
+	  	<p class="panel3-font">Web developer : 1  peoples</p>
+	  	<p class="panel3-font">UI/UX Designer : 2 people</p>
+	  	<p class="panel3-font">Marketing Expert : 1 people</p>
+	  	<p class="panel3-font"><span style="color:darkblue;font-size: 20px;">Our reputation for custormer:</span>Top skilled and full experienced and high communicated and correct deadlined and Cheap costed good development team. </p>
+	  	<img src="assets/img/flowergroup.png" style="float: right;width: 15%;">
+	   </div>
+	</div>
+</div>
+<div class="panel4-container">
+    <h1 class="panel-title" style="text-decoration: underline;">Contact Us</h1>
+    <div class="row">
+    	<div class="col-sm-6">
+    	<center><img src="assets/img/placepin.png" width="5%"></center>
+    	</div>
+    	<div class="col-sm-6">
+		 <center><img src="assets/img/paperplain.png" width="5%"></center>
+    	</div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-6">
+    	<center><h3 style="margin:30px 0 50px 0;">I am a Madrid</h3></center>
+    	</div>
+    	<div class="col-sm-6">
+		 <center><h3 style="margin: 30px 0 50px 0;">dreamstar725@gmail.com</h3></center>
+    	</div>
+    </div>
+	<form>
+	<center><input type="text" name="name" placeholder="name" class="tbl1"></center>
+	<center><input type="text" name="emailaddress" placeholder="Email Address" class="tbl2"></center>
+  	<center><textarea id="textarea" placeholder="Message"></textarea></center>
+	<center><input type="button" value="Send Now" ></center>
+	</form>
+			<img src="assets/img/logo.png" style="float: right;padding: 10%;">
+</div>
+</body>
+</html>
